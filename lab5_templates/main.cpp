@@ -27,7 +27,7 @@ int main() {
 
     // Pomnó¿ wielomian przez sta³¹
     auto scaled = poly1 * 2;
-    std::cout << "Wielomian pomno¿ony przez 2: ";
+    std::cout << "Wielomian pomnozony przez 2: ";
     printPolynomial(scaled);
     
     // Oblicz wartoœæ wielomianu dla x = 2
@@ -37,3 +37,13 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT:
+Wielomian jest postaci: 1x^3 + 2x^2 + 3x^1 + 4
+Wielomian jest postaci: -1x^2 + 1
+Suma wielomianow: Wielomian jest postaci: 1x^3 + 1x^2 + 3x^1 + 5
+Roznica wielomianow: Wielomian jest postaci: 1x^3 + 3x^2 + 3x^1 + 3
+Wielomian pomnozony przez 2: Wielomian jest postaci: 2x^3 + 4x^2 + 6x^1 + 8
+Wartosc wielomianu poly1 dla x = 2: 26
+*/
